@@ -1,0 +1,18 @@
+{
+  "ollama": {
+    "host": "http://localhost:11434",
+    "model": "llama3.2",
+    "temperature": 0.4
+  },
+  "audio": {
+    "wake_word": "jarvis",
+    "ambient_duration": 1.0,
+    "speech_timeout": 5,
+    "phrase_limit": 10,
+    "voice_rate": 185,
+    "voice_volume": 1.0
+  },
+  "database": {
+    "path": "memory/jarvis_memory.db"
+  }
+}
